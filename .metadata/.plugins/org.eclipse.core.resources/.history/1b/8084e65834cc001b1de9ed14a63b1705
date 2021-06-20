@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class Worker {
+
+	public static void main(String[] args) {
+		System.out.println("직원의 이름, 부서, 사번, 직책, 업무 성적을 입력하시오.");
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.next();
+		String department = scanner.next();
+		String num = scanner.next();
+		String position = scanner.next();
+		String score = scanner.next();
+		
+		
+		for(int i=1; i<=10; i++) {
+			System.out.print("-");
+		}
+		System.out.println();
+		System.out.println(name);
+		System.out.println(department);
+		System.out.println(num);
+		System.out.println(position);
+		System.out.println(score);
+		
+		
+		for(int i=1; i<=10; i++) {
+			System.out.print("-");
+		}
+		scanner.close();
+	}
+}
+
